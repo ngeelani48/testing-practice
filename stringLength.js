@@ -1,8 +1,11 @@
 const stringLength=(string)=>{
-    if(string.length>0 && string.length <10){
-    return string.length;
-    } else {
-        throw new Error('String is empty or very long');
-    }
+    if(string.length < 1 || string.length > 10){
+        throw new Error('String length must be between 1 and 10');
+    } 
+    return string.length
 }
 module.exports= stringLength;
+
+  
+  
+  
