@@ -1,0 +1,22 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "This is for practice unit testing",
+  "main": "stringLength.js",
+  "scripts": {
+    "test":"jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngeelani48/testing-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngeelani48/testing-practice/issues"
+  },
+  "homepage": "https://github.com/ngeelani48/testing-practice#readme",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
